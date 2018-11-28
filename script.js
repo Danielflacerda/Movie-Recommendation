@@ -61,7 +61,7 @@ function makeRecommendation(isRepeated) {
              * Cria um elemento HTML, que recebe o conteúdo do arquivo retornado na requisição Ajax;
              * @type {HTMLElement}
              */
-            var dom = document.createElement('main_content');
+            var dom = document.createElement('main_content-master');
             dom.innerHTML = xmlhttp.responseText;
             /** Lista que será preenchida com os filmes que atenderem a critérios do filtro */
             var moviesOnFilter = [];
